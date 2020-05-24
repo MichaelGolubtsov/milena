@@ -1,0 +1,198 @@
+.navbar {
+	background: #323841;
+	background-image: -o-linear-gradient(bottom, #424B57 0%, #323841 100%);
+	background-image: -moz-linear-gradient(bottom, #424B57 0%, #323841 100%);
+	background-image: -webkit-linear-gradient(bottom, #424B57 0%, #323841 100%);
+	background-image: -ms-linear-gradient(bottom, #424B57 0%, #323841 100%);
+	background-image: linear-gradient(to bottom, #424B57 0%, #323841 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#424B57,endColorstr=#323841);
+	box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.15) inset, 0 2px 2px rgba(0, 0, 0, 0.05) inset;
+	display: block;
+	height: 50px;
+	margin: 0 auto;
+	width: 1000px;
+	clear: both;
+}
+
+.dropdown {
+	position: relative;
+}
+
+.nav {
+	list-style: outside none none;
+}
+
+.nav > .dropdown.active > a:hover,
+.nav > .dropdown.active > a:focus {
+	cursor: pointer;
+}
+
+.navbar .nav li .dropdown-menu {
+	z-index: 1000;
+}
+
+.navbar .nav {
+	display: block;
+	float: left;
+	left: 0;
+	position: relative;
+}
+
+.navbar .nav > li {
+	float: left;
+}
+
+/*стрелка вверху в виде диалогового указателя*/
+.navbar .nav > li > .dropdown-menu::after {
+	border-bottom: 6px solid #323841;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	content: "";
+	display: inline-block;
+	left: 10px;
+	position: absolute;
+	top: -6px;
+}
+
+/*стрелка вправо*/
+.dropdown-menu .dropdown i {
+	margin-top: 3px;
+	padding-left: 20px;
+	position: absolute;
+	right: 0;
+}
+
+/*первый уровень меню*/
+.navbar .nav > li > a {
+	color: #abb1ba;
+	float: none;
+	font: 500 12px/42px Tahoma;
+	padding: 4px 20px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+	border-left: 1px solid rgba(255, 255, 255, 0.09);
+	border-right: 1px solid rgba(0, 0, 0, 0.4);
+	text-decoration: none;
+	display: block;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	text-decoration: none;
+	transition: all 0.3s ease 0s;
+}
+
+/*отмена бордер первый и последний*/
+.navbar .nav li:first-child a {
+	border-left: medium none;
+}
+
+.navbar .nav li:last-child a {
+	border-right: medium none;
+}
+
+/*эффект ховер, фокус первого уровня меню*/
+.navbar .nav > li:hover  > a,
+.navbar .nav > li > a:focus,
+.navbar .nav > .active > a {
+	color: #ffffff;
+	background:#E4526E;
+}
+
+ul.nav li.dropdown a {
+	display: block;
+	z-index: 1000;
+}
+
+ul.nav li.dropdown ul li i {
+	margin-right: 20px;
+}
+
+select.selectmenu {
+	display: none;
+}
+
+.dropdown-menu {
+	background: #323841;
+	box-shadow: none;
+	display: none;
+	float: left;
+	left: 0;
+	list-style: outside none none;
+	margin:7px 0 0;
+	min-width: 180px;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	z-index: 1000;
+}
+
+.dropdown-menu li {
+	margin: 0;
+	padding: 0;
+}
+
+.dropdown-menu li a {
+	border-bottom: 1px solid #2c323b;
+	color: #abb1ba;
+	font: 500 13px Tahoma;
+	margin: 0;
+	padding: 10px 15px;
+	text-decoration: none;
+	text-shadow: none;
+	transition: background-color 300ms linear;
+	box-sizing: border-box;
+}
+
+.dropdown-menu li:last-child a {
+	border-bottom: medium none;
+}
+
+.dropdown-menu > li:hover  > a,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu > li:hover  > a,
+.dropdown-menu .active > a {
+	color: #ffffff;
+	background:#E4526E;
+}
+
+.dropdown-menu .sub-menu-level1, .dropdown-menu .sub-menu-level2 {
+	left: 100%;
+	margin-top: 0;
+	position: absolute;
+	top: 0;
+	visibility: hidden;
+}
+.dropdown-menu li:hover .sub-menu-level1 {
+	visibility: visible;
+}
+.dropdown-menu li li:hover .sub-menu-level2 {
+	visibility: visible;
+}
+
+@media (max-width: 768px) {
+	.navbar {
+		width: auto;
+	}
+	.navbar ul li {
+		display: none;
+	}
+	select.selectmenu {
+		color: #111;
+		display: block;
+		float: left;
+		padding:10px;
+		border:none;
+		width: 100%;
+	}
+
+	.navbar {
+		background:none;
+		box-shadow:none;
+	}
+
+}
+@media (max-width: 480px) {
+
+	.navbar {
+		background:none;
+		box-shadow:none;
+	}
+}

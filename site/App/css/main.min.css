@@ -1,0 +1,294 @@
+@font-face {
+  font-family: "UbuntuLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Ubuntu/Ubuntu-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu/Ubuntu-Light.woff") format("woff"), url("../fonts/Ubuntu/Ubuntu-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "UbuntuRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Ubuntu/Ubuntu-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu/Ubuntu-Regular.woff") format("woff"), url("../fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "UbuntuMedium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Ubuntu/Ubuntu-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu/Ubuntu-Medium.woff") format("woff"), url("../fonts/Ubuntu/Ubuntu-Medium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "UbuntuBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Ubuntu/Ubuntu-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu/Ubuntu-Bold.woff") format("woff"), url("../fonts/Ubuntu/Ubuntu-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "OswaldLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Oswald/Oswald-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Oswald/Oswald-Light.woff") format("woff"), url("../fonts/Oswald/Oswald-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "OswaldRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Oswald/Oswald-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Oswald/Oswald-Regular.woff") format("woff"), url("../fonts/Oswald/Oswald-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "OswaldMedium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Oswald/Oswald-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Oswald/Oswald-Medium.woff") format("woff"), url("../fonts/Oswald/Oswald-Medium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "OswaldBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Oswald/Oswald-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Oswald/Oswald-Bold.woff") format("woff"), url("../fonts/Oswald/Oswald-Bold.ttf") format("truetype"); }
+
+html h2 {
+  margin-top: 50px;
+  margin-bottom: 70px; }
+
+html .underline {
+  display: inline-block;
+  color: black;
+  line-height: 2;
+  text-decoration: none;
+  position: relative; }
+
+html .underline:after {
+  background-color: #0aad8e;
+  display: block;
+  content: "";
+  height: 2px;
+  width: 40px;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+html .razdelitel {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+html h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0; }
+
+html h4 {
+  font-size: 16px; }
+
+html h5 {
+  font-size: 16px;
+  margin-top: -55px;
+  margin-bottom: 50px; }
+
+body {
+  background-color: #f6f6f6; }
+
+.content .container {
+  background-color: white; }
+
+.firstLine {
+  background-color: transparent;
+  height: 70px;
+  z-index: 10;
+  Position: fixed;
+  Top: 0;
+  Left: 0px;
+  right: 0px; }
+  .firstLine .menu1Position {
+    margin-left: 5px;
+    margin-top: 24px; }
+  .firstLine .menu1 {
+    color: white; }
+  .firstLine .logo1 {
+    position: absolute;
+    top: 17px;
+    left: 0px; }
+  .firstLine .logotip {
+    margin-top: 10px;
+    color: white;
+    font-size: 35px; }
+  .firstLine .backcall {
+    position: absolute;
+    top: 20px;
+    right: -55px; }
+
+.slider1 {
+  background-image: url(Healthy-Teeth.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100%;
+  height: 774px;
+  margin-bottom: 150px; }
+  .slider1 .zagolovok1 {
+    font-size: 75px;
+    margin-top: 140px;
+    color: white; }
+  .slider1 .text2 {
+    font-size: 32px;
+    line-height: 35px;
+    color: white; }
+  .slider1 .sliderbtn {
+    margin-top: 50px;
+    padding: 5px 30px;
+    border: 3px solid #0aad8e;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background-color: #0aad8e;
+    color: white; }
+  .slider1 .sliderbtn:hover {
+    border: 3px solid #2af3cd;
+    background-color: #0aad8e;
+    color: white; }
+
+.osnovnierazdeli {
+  margin-top: -384px; }
+  .osnovnierazdeli .kadr {
+    border-bottom: 3px solid #0aad8e;
+    margin: 10px 10px 10px 10px;
+    background-color: white;
+    height: 315px; }
+    .osnovnierazdeli .kadr img {
+      margin: 0 auto;
+      height: 170px;
+      padding-top: 50px;
+      padding-bottom: 50px; }
+    .osnovnierazdeli .kadr .title1 {
+      font-size: 25px;
+      font-weight: bold; }
+    .osnovnierazdeli .kadr .text1 {
+      font-size: 13px;
+      padding: 10px 20px; }
+
+.onas {
+  margin-top: 5px; }
+  .onas .otstup_vverh {
+    margin-top: 50px; }
+
+.preimush {
+  margin-top: 51px; }
+  .preimush img {
+    margin-bottom: 30px; }
+  .preimush .title {
+    font-size: 25px; }
+  .preimush .text {
+    font-size: 15px; }
+
+.bligmeroprijatia .meroprcard {
+  height: 588px; }
+
+.bligmeroprijatia .datameropr {
+  color: white; }
+  .bligmeroprijatia .datameropr img {
+    position: absolute;
+    top: 230px;
+    left: 55px; }
+  .bligmeroprijatia .datameropr span {
+    display: inline-block;
+    position: absolute;
+    top: 235px;
+    left: 119px; }
+
+.bligmeroprijatia .infomeropr .nazvmeropr {
+  position: absolute;
+  width: 300px;
+  top: 314px;
+  left: 40px; }
+
+.bligmeroprijatia .infomeropr .seminarbtn {
+  position: absolute;
+  top: 390px;
+  left: 40px;
+  padding: 2px 15px;
+  border: 1px solid #e9415b;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background-color: #e9415b;
+  color: white; }
+
+.bligmeroprijatia .infomeropr .group {
+  position: absolute;
+  top: 433px;
+  left: 40px; }
+
+.bligmeroprijatia .infomeropr .mest {
+  position: absolute;
+  top: 436px;
+  left: 110px; }
+
+.bligmeroprijatia .infomeropr .watch {
+  position: absolute;
+  top: 433px;
+  left: 182px; }
+
+.bligmeroprijatia .infomeropr .dlitelnost {
+  position: absolute;
+  top: 436px;
+  left: 221px; }
+
+.bligmeroprijatia .infomeropr .stoimost {
+  position: absolute;
+  top: 495px;
+  left: 40px;
+  font-size: 18px;
+  font-weight: bold; }
+
+.bligmeroprijatia .infomeropr .registrbtn {
+  position: absolute;
+  top: 492px;
+  left: 186px;
+  padding: 5px 30px;
+  border: 2px solid #0aad8e;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background-color: white;
+  color: black; }
+
+.bligmeroprijatia .infomeropr .registrbtn:hover {
+  border: 2px solid #0aad8e;
+  background-color: #0aad8e;
+  color: white; }
+
+.bligmeroprijatia .photomer {
+  position: relative;
+  width: 360px; }
+
+.sertandlics img {
+  margin-bottom: 30px; }
+
+.nashipartneri img {
+  margin-bottom: 20px; }
+
+.otzivi .otziv {
+  padding: 10px 20px 10px 10px; }
+  .otzivi .otziv img {
+    padding-top: 10px; }
+
+.footer1 {
+  background-color: #212330;
+  color: white;
+  padding: 40px 20px 20px 20px; }
+  .footer1 ul li {
+    padding-left: 24px; }
+  .footer1 .contacts img {
+    margin-bottom: 7px; }
+  .footer1 .contacts p {
+    margin-left: -50px; }
+  .footer1 .thumb img {
+    padding: 10px 3px 0px 0px;
+    display: inline-block; }
+
+.footer2 {
+  background-color: #343645;
+  color: #8c8c8f;
+  padding: 10px 0px 0px 0px; }
+  .footer2 a {
+    color: limegreen;
+    text-decoration: underline; }
+  .footer2 a:hover {
+    color: greenyellow; }
